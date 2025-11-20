@@ -1,0 +1,21 @@
+
+div{
+    height: 100px;
+    width: 500px;
+    background-color: pink;
+    border: 5px solid purple ;
+    margin-bottom : 25px;
+    border-radius: 15px;
+    padding : 10px 10px 10px 10px
+}
+
+h1{
+    border: 2px dashed gold;
+}
+
+button{
+    border: 5px solid purple;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 0 15px;
+}
