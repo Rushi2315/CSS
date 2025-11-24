@@ -1,0 +1,43 @@
+div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: purple;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+p{
+    padding: 20px;
+}
+
+#Static{
+    background-color: pink;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+#Relative{
+    background-color: aqua;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#Absolute{
+    background-color: rgb(210, 30, 102);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#Fixed{
+    background-color: orange;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+#Sticky{
+    background-color: green;
+    position: sticky;
+    top: 100px;
+    left: 100px;
+}

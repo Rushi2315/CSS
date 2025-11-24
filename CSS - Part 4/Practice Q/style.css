@@ -1,0 +1,80 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in-out 0.2s;
+}
+
+div:hover{
+    margin-top: 400px;
+    background-color: pink;
+
+} */
+
+
+
+
+
+/* section{
+    margin: 100px;
+}
+
+div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+#One{
+    transform: rotate(45deg);
+}
+#Two{
+    transform: scale(0.5);
+}
+#Three{
+    transform: translatex(100px);
+}
+#Four{
+    transform: skew(20deg,10deg);
+}
+#Five{
+    transform: rotate(40deg) translatex(100px);
+} */
+
+
+
+/* BOX-SHADOW PRACTICE Q  */
+
+/* div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px  black ;
+} */
+
+div{
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("BMW/BMW.jpg");
+    background-size: cover;
+    color: white;
+     box-shadow: 2px 2px 8px  black
+
+}
