@@ -1,0 +1,68 @@
+div{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* animation-name:FontAnimation,Coloranimation ; */
+    /* animation-name:  widthanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
+    animation-delay: 0;
+    animation-direction: normal; */
+
+      /* animation: widthanimation 2s ease-in 0s 3 normal; */
+      animation: colanimate 3s ease-in 0s 3 normal;
+
+}
+
+@keyframes colanimate {
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: palevioletred;
+    }
+    50%{
+        background-color: purple;
+    }
+    75%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+
+
+
+
+@keyframes widthanimation {
+    from{
+        width: 40px;
+        background-color: orange;
+        border-radius: 0px;
+    }
+    to{
+        width: 500px;
+        background-color: orangered;
+        border-radius: 15px;
+    }
+}
+
+@keyframes FontAnimation {
+
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+    
+}
+
+@keyframes Coloranimation {
+    from{background-color: aqua;}
+    to{background-color: yellow;}
+}
+

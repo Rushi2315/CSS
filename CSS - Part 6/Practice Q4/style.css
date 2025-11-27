@@ -1,0 +1,40 @@
+
+.card{
+    width: 400px;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 8px 0.8px black;
+}
+
+img{
+    width: 100%;
+    border-radius:  25px;
+    box-shadow: 2px 5px 8px black;
+
+}
+
+
+span{
+    color: orangered;
+    text-align: center;
+}
+h1{
+    color:orange;
+    text-align: center;
+}
+h3{
+    color: mediumorchid;
+}
+h2{
+    color: purple;
+    text-decoration: underline;
+}
+
+
+
+#pet{
+    display: flex;
+    justify-content: space-evenly;
+}
